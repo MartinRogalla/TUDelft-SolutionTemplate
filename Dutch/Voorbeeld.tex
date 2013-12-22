@@ -11,28 +11,22 @@
 % No attribution is required on the resulting .pdf file.
 %
 \documentclass[a4paper, answers, addpoints]{exam}
-\usepackage[usenames,dvipsnames]{color}
 \usepackage{fullpage}
 \usepackage{graphicx}
-\usepackage{epstopdf}
 \usepackage{caption}
-\usepackage{verbatim}
-\usepackage[boxed]{algorithm2e}
 \usepackage[yyyymmdd,hhmmss]{datetime}
 \usepackage{amssymb}
-\usepackage{amsmath,amsthm}
-\usepackage{amsfonts}
-\usepackage{enumerate}
-\usepackage{enumitem}
-\usepackage{tikz}
 \usepackage{blindtext}
-\usepackage{bm}
+\usepackage[dutch]{babel}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
 \renewcommand{\familydefault}{\sfdefault}
-\newenvironment{monoblock}% 
-  {\ttfamily}%
-  {}
+\renewcommand{\solutiontitle}{\noindent\textbf{Oplossing:}\\\noindent}
+\qformat{\textbf{Vraag \thequestion}\,(\totalpoints\,\points)\hfill}
+\pointpoints{Punt}{Punten}
+\bonuspointpoints{Bonus Punt}{Bonus Punten}
 \usepackage[utf8]{inputenc}
-\definecolor{LightCyan}{rgb}{0.88,2,0.88}
 \begin{document}
 \begin{figure}[ht!]
     \begin{minipage}[H]{0.33\textwidth}
@@ -44,31 +38,32 @@
 	\end{minipage}
 	\begin{minipage}[H]{0.33\textwidth}
 		\begin{center}
-		\large{John Doe}\\
+		\large{Volledige Naam}\\
 		\normalsize
-			1234567\\
-			J.Doe@student.tudelft.nl
+			Studentnummer\\
+			Email@student.tudelft.nl
 		\end{center}
 	\end{minipage}
 \end{figure}
 \vspace{-0.5cm}
 \hrule
 \begin{center}
-	\textbf{Practical Exercise 1 - EX1234 Example Course  - \today}\\
+	\textbf{Practicum Nummer - CURSUSID Naam van Cursus  - \today}\\
 \end{center}
 \hrule
 \vspace{0.3cm}
+    
     \begin{questions}
         % Question 1
         \question[2] Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
         \begin{solution}\\
-            \blindmathpaper
+            \blindmathpaper@english
         \end{solution}
         % Question 2
         \question[2] Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         \begin{solution}\\
-            \blindmathpaper
+            \blindmathpaper@english
         \end{solution}
     \end{questions}
-    
+
 \end{document} 
