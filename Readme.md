@@ -1,5 +1,5 @@
 ##Delft University of Technology Solution Template
-
+###Screenshot Example Document
 ![TU Delft Solution Template](https://raw.github.com/MartinRogalla/TUDelft-SolutionTemplate/master/screenshot.png)
 
 ###Work In Progress
