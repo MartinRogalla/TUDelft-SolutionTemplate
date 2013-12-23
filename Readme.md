@@ -1,6 +1,6 @@
 ##Delft University of Technology Solution Template
 ###Screenshot Example Document
-![TU Delft Solution Template](https://raw.github.com/MartinRogalla/TUDelft-SolutionTemplate/master/screenshot.png)
+[![TU Delft Solution Template](screenshot.png?raw=true)](./English/Example.pdf?raw=true)
 
 ###Work In Progress
 This template is not finished and is still being developed.
